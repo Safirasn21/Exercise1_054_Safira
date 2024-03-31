@@ -1,0 +1,132 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #FCE205; 
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #FCE205; 
+  margin-top: 100px;
+}
+
+body {
+  font-family: 'Courier New', 'Franklin Gothic Medium', 'Arial Narrow'; 
+  background-color: #0470c3; 
+  padding: 0; 
+}
+
+
+img {
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(255, 93, 147, 0.1); 
+}
+
+.profile-button {
+  background-color: #87CEEB; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 10px; 
+  cursor: pointer; 
+  font-size: 18px;
+  border-radius: 5px; 
+}
+
+.profile-button:hover {
+  background-color: #78c8e7; 
+}
+
+.album-button1 {
+  background-color: #87CEEB; 
+  color: #fff; 
+  border: none; 
+  margin: auto; 
+  cursor: pointer; 
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px; 
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.album-button1:hover {
+  background-color: #78c8e7; 
+}
+
+.album-button2 {
+  background-color: #87CEEB; 
+  color: #fff; 
+  border: none; 
+  margin: auto; 
+  cursor: pointer; 
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px; 
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.album-button2:hover {
+  background-color: #78c8e7; 
+}
+
+.album-button3 {
+  background-color: #87CEEB; 
+  color: #fff; 
+  border: none; 
+  margin: auto;
+  cursor: pointer; 
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px; 
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.album-button3:hover {
+  background-color: #78c8e7; 
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 40px 200px;
+}
+
+.paragraph1{
+  color: #ffffff;
+  text-align: Justify;
+}
+
+.paragraph2{
+  color: #ffffff;
+  text-align: justify;
+}
+
+.paragraph3{
+  color: #ffffff;
+  text-align: center;
+}
+
+.paragraph4{
+  color: #ffffff;
+  text-align: Justify;
+}
+
+.album-images {
+  display: flex; 
+  justify-content: center; 
+  gap: 250px; 
+}
+
+.album-images img {
+  width: 200px; 
+  height: auto; 
+}

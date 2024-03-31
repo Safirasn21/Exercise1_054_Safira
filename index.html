@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EXERCISE</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .album-container {
+            text-align: center; 
+            margin-top: 10px; 
+        }
+    </style>
+</head>
+
+<body style="font-family:'serif'">
+
+    <h1>BOYNEXTDOOR</h1>
+    <img src="https://i.pinimg.com/564x/fa/bf/5e/fabf5e498c9a86d62eb3d6fd01d146da.jpg" width="500" height="500">
+    <div class="description">
+        <p>BOYNEXTDOOR adalah grup vokal pria asal Korea Selatan yang dibentuk oleh KOZ Entertainment, anak perusahaan dari Hybe. Grup ini terdiri dari enam anggota: Sungho, Riwoo, Jaehyun, Taesan, Leehan, dan Woonhak. BOYNEXTDOOR memulai debutnya pada 30 Mei 2023, dengan album single Who! Memiliki greeting resmi yaitu "WHO'S THERE? THE BOYNEXTDOOR." Memiliki nama fandom 'ONEDOOR' dan baru saja merilis lightstick official pada awal tahun ini. BOYNEXTDOOR juga akan melakukan comebcak pada 15 april mendatang dengan album berjudul 'HOW?'</p>
+    </div>
+
+    <div style="text-align:center;">
+        <button class="profile-button" onclick="showProfile()">
+            Detail Profile Member
+        </button>
+    </div>
+
+    <h2>BND's ALBUM</h2>
+    <div class="album-images">
+        
+        <div class="album-container1">
+            <img src="https://i.pinimg.com/564x/11/81/08/11810877e564998abda299b111e79b52.jpg" alt="Album 1">
+            <p class="paragraph1">
+              But I Like You <br>
+              One And Only [Title Track]<br>
+              Serenade
+            </p>
+            <button class="album-button1" onclick="redirectToYoutube('https://youtu.be/jizAb-SLvtM?si=dS81isJal17GSt4Y')">WHO!</button>
+        </div>
+        
+        <div class="album-container2">
+            <img src="https://i.pinimg.com/564x/51/ab/c1/51abc1ce77d7240110f98c9f26d22ac9.jpg" alt="Album 2">
+            <p class="paragraph2">
+              But I Like You <br>
+              One And Only<br>
+              Serenade<br>
+              Crying<br>
+              But Sometime [Title Track] <br>
+              ABCDLOVE
+            </p>
+            <button class="album-button2" onclick="redirectToYoutube('https://youtu.be/97_-_WugRFA?si=cbbnpi63Fj2aY_rX')">WHY..</button>
+        </div>
+        
+        <div class="album-container3">
+          <img src="https://pbs.twimg.com/media/GJXJHlkbUAAWz8P?format=jpg&name=medium" alt="Album 3">
+          <p class="paragraph3">
+            COMING SOON!
+          </p>
+          <p class="paragraph4">
+            OUR<br>
+            Amnesia<br>
+            So let's go see the stars<br>
+            Earth, Wind, and Fire (eng. ver)<br>
+            얼윈파 [Title Track]<br>
+            Life is Cool<br>
+            Dear My Darling
+          </p>
+          <button class="album-button3" onclick="showAlert()">HOW?</button>
+      </div>
+    </div>
+
+    <script src="descButton.js"></script>
+</body>
+
+</html>
